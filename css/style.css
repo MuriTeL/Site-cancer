@@ -234,6 +234,20 @@ article#main-col {
   position: relative;
 }
 
+.cover-chat {
+
+  padding: 0;
+  margin: 0;
+  min-height: 500px;
+  background: url('../img/article_du_chat.jpg');
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 3px solid #99ed1c;
+  border-radius: 20px
+}
+
 article#main-col strong{
   color: #99ed1c;
   font-style: bold;
