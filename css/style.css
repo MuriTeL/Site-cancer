@@ -241,11 +241,15 @@ article#main-col {
   min-height: 500px;
   background: url('../img/article_du_chat.jpg');
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #ffffff;
   border-bottom: 3px solid #99ed1c;
   border-radius: 20px
+}
+
+.article-chat {
+  
 }
 
 article#main-col strong{
