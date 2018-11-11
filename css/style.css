@@ -310,6 +310,34 @@ article#main-col {
   border-bottom: 3px solid #99ed1c;
   border-radius: 20px
 }
+.cover-inneficacite {
+
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  min-height: 500px;
+  background: url('../img/billetcenteuros.jpg') no-repeat;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 3px solid #99ed1c;
+  border-radius: 20px
+}
+.cover-data {
+
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  min-height: 500px;
+  background: url('../img/medicaments.jpg') no-repeat;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 3px solid #99ed1c;
+  border-radius: 20px
+}
 .cover-raisins {
 
   background-size: cover;
@@ -382,7 +410,7 @@ ul#services li ul li {
 	border: 1px solid black;
 	border-radius: 10px;
 	text-decoration: none;
-	
+
 }
 
 .boutique-button {
