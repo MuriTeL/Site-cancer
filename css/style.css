@@ -194,52 +194,54 @@ header a:hover {
 
 /* boxes*/
 #boxes {
-	margin-top: 20px;
+	display: block;
+	margin: auto;
 	padding-top: 20px;
+	//padding-left: 100px;
 	border-top: 2px solid #35424a;
 	border-radius: 20px;
 	background: #e8e3da;
 }
 
-#boxes a {
-  text-decoration: none;
-  color: black;
+.title-link {
+	text-align: center;
+	text-decoration: none;
+	color: #35424a;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border: none;
+	transition-property: all;
+	transition-duration: 0.5s;
 }
 
-#boxes h1 {
-  transition-property: transform text-decoration;
-  transition-duration: 0.5s;
-}
-
-#boxes h1:hover {
-  transform: translateX(30px);
-  text-decoration: underline;
+.title-link:hover {
+	transform: translateY(-10px);
+	text-decoration: underline;
 }
 
 #boxes .box {
 	float: left;
 	text-align: center;
 	width: 30%;
-  height: 100px;
-	padding: O;
-  margin: 5px;
-  border: 2px solid #35424a;
-  border-radius: 10px;
-  background: #35424a;
-  color: #f1f1f1;
-  transition-property: transform, background, color;
-  transition-duration: 0.5s;
+	height: 100px;
+	padding: auto;
+	margin: 5px;
+	border: 2px solid #35424a;
+	border-radius: 10px;
+	background: #35424a;
+	color: #f1f1f1;
+	transition-property: transform, background, color;
+	transition-duration: 0.5s;
 }
 
 #boxes .box:hover {
-  transform: translateY(-10px);
-  background: #f1f1f1;
-  color: #35424a;
+	transform: translateY(-10px);
+	background: #f1f1f1;
+	color: #35424a;
 }
 
-#boxes .box img {
-	width: 90px;
-}
+
 
 /* sidebar */
 aside#sidebar {
