@@ -8,6 +8,7 @@ body{
 /* Global */
 .container{
   width: 80%;
+  padding: 10px;
   margin: auto;
   overflow: hidden;
 }
@@ -194,13 +195,45 @@ header a:hover {
 /* boxes*/
 #boxes {
 	margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #35424a;
+  border-radius: 20px;
+}
+
+#boxes a {
+  text-decoration: none;
+  color: black;
+}
+
+#boxes h1 {
+  transition-property: transform text-decoration;
+  transition-duration: 0.5s;
+}
+
+#boxes h1:hover {
+  transform: translateX(30px);
+  text-decoration: underline;
 }
 
 #boxes .box {
 	float: left;
 	text-align: center;
 	width: 30%;
-	padding: 10px;
+  height: 100px;
+	padding: O;
+  margin: 5px;
+  border: 2px solid #35424a;
+  border-radius: 10px;
+  background: #35424a;
+  color: #f1f1f1;
+  transition-property: transform, background, color;
+  transition-duration: 0.5s;
+}
+
+#boxes .box:hover {
+  transform: translateY(-10px);
+  background: #f1f1f1;
+  color: #35424a;
 }
 
 #boxes .box img {
@@ -239,7 +272,7 @@ article#main-col {
   padding: 0;
   margin: 0;
   min-height: 500px;
-  background: url('../img/article_du_chat.jpg');
+  background: url('../img/article_du_chat.jpg') no-repeat;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -249,7 +282,7 @@ article#main-col {
 }
 
 .article-chat {
-  
+
 }
 
 article#main-col strong{
