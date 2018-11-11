@@ -195,9 +195,10 @@ header a:hover {
 /* boxes*/
 #boxes {
 	margin-top: 20px;
-  padding-top: 20px;
-  border-top: 2px solid #35424a;
-  border-radius: 20px;
+	padding-top: 20px;
+	border-top: 2px solid #35424a;
+	border-radius: 20px;
+	background: #e8e3da;
 }
 
 #boxes a {
@@ -320,9 +321,6 @@ article#main-col {
   border-bottom: 3px solid #99ed1c;
   border-radius: 20px
 }
-.article-chat {
-
-}
 
 article#main-col strong{
   color: #99ed1c;
@@ -367,6 +365,16 @@ ul#services li ul li {
   border: none;
   margin-left: 20px;
   padding: 0;
+}
+
+.price {
+	padding: 5px;
+	background: #35424a;
+	color: #99ed1c;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	
 }
 
 /* footer */
