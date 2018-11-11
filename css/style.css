@@ -266,6 +266,13 @@ article#main-col {
 	animation-name: opac;
 	animation-duration: 2s;
 	position: relative;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+article#main-col:hover {
+	transform: translateX(10px);
+	font-size: 16px;
 }
 
 .cover-chat {
@@ -392,8 +399,8 @@ ul#services li ul li {
 	transition-duration: 0.5s;
 }
 
-.boutique-button:hover li{
-	background: #35424a;
+.boutique-button:hover {
+	font-size: 20px;
 }
 
 /* footer */
