@@ -260,23 +260,9 @@ aside {
 }
 
 /* article */
-article#main-col {
-	float: left;
-	width: 65%;
-	animation-name: opac;
-	animation-duration: 2s;
-	position: relative;
-	transition-property: all;
-	transition-duration: 0.5s;
-}
-
-article#main-col:hover {
-	transform: translateX(10px);
-	font-size: 16px;
-}
 
 .cover-chat {
-	background-size: cover;
+	
 	padding: 0;
 	margin: 0;
 	min-height: 500px;
@@ -291,11 +277,11 @@ article#main-col:hover {
 }
 .cover-témoignage {
 
-  background-size: cover;
   padding: 0;
   margin: 0;
   min-height: 500px;
   background: url('../img/témoignage.jpg') no-repeat;
+	background-size: cover;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -305,11 +291,11 @@ article#main-col:hover {
 }
 .cover-oublie {
 
-  background-size: cover;
   padding: 0;
   margin: 0;
   min-height: 500px;
   background: url('../img/remed.jpg') no-repeat;
+	background-size: cover;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -319,11 +305,11 @@ article#main-col:hover {
 }
 .cover-inneficacite {
 
-  background-size: cover;
   padding: 0;
   margin: 0;
   min-height: 500px;
   background: url('../img/billetcenteuros.jpg') no-repeat;
+	background-size: cover;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -333,11 +319,11 @@ article#main-col:hover {
 }
 .cover-data {
 
-  background-size: cover;
   padding: 0;
   margin: 0;
   min-height: 500px;
   background: url('../img/medicaments.jpg') no-repeat;
+	background-size: cover;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -347,17 +333,32 @@ article#main-col:hover {
 }
 .cover-raisins {
 
-  background-size: cover;
   padding: 0;
   margin: 0;
   min-height: 500px;
   background: url('../img/raisins.jpg') no-repeat;
+	background-size: cover;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
   border-bottom: 3px solid #99ed1c;
   border-radius: 20px
+}
+
+article#main-col {
+	float: left;
+	width: 65%;
+	animation-name: opac;
+	animation-duration: 2s;
+	position: relative;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+article#main-col:hover {
+	transform: translateX(10px);
+	font-size: 16px;
 }
 
 article#main-col strong{
@@ -384,6 +385,43 @@ article#main-col p.date {
 }
 
 article#main-col p.date span{
+  color: green;
+}
+
+/*main-col-article*/
+
+article#main-col-article {
+	float: left;
+	width: 65%;
+	animation-name: opac;
+	animation-duration: 2s;
+	position: relative;
+}
+
+article#main-col-article strong{
+  color: #99ed1c;
+  font-style: bold;
+}
+
+article#main-col-article img {
+	display: block;
+	margin: auto;
+}
+
+article#main-col-article em {
+  font-style: italic;
+}
+
+article#main-col-article p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+article#main-col-article p.date {
+  font-style: normal;
+}
+
+article#main-col-article p.date span{
   color: green;
 }
 
